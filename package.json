@@ -1,0 +1,25 @@
+{
+  "name": "serverweb",
+  "version": "1.0.0",
+  "description": "Servidor Web con Node",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laigal/nodeServer.git"
+  },
+  "author": "Laura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laigal/nodeServer/issues"
+  },
+  "homepage": "https://github.com/laigal/nodeServer#readme"
+}
