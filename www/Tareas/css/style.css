@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+form{
+    margin:40px;
+}
+
+input{
+    width: 30%;
+}
+
+hr{
+    height:10px;
+}
