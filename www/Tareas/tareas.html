@@ -12,8 +12,9 @@
 <body>
     <h1>Web de Tareas</h1>
     <form action="/" method="post" id="formulario">
-        <input type="text" name="nombre" id="nombre" placeholder="Nombre de usuario">
-        <input type="text" name="tarea" id="tarea"placeholder="Nombre de la tarea">
+        <input type="hidden" name="id" value="[id_editar]">
+        <input type="text" required name="nombre" id="nombre" placeholder="Nombre de usuario">
+        <input type="text" required name="tarea" id="tarea"placeholder="Nombre de la tarea">
         <!-- <input type="text" name="suplente" id="tarea"placeholder="suplente"> -->
         <button type="submit" id="enviar">Enviar</button>
     </form>
