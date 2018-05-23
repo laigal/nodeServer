@@ -1,3 +1,7 @@
+body{
+    align-items:center;
+}
+
 h1 {
     text-align: center;
     font-size: 50px;
@@ -15,31 +19,49 @@ input{
     width: 30%;
     margin:5px;
     text-align:center;
+    border-color:rgb(177, 170, 170);
+    border-radius: 15px;
 }
 
 hr{
     height:10px;
-    background-color: rgb(167, 165, 165);
+    background-color: rgb(155, 196, 192);
     margin-bottom:40px;
+    color:rgb(97, 96, 96);
 }
 
 button{
-    width:60px;
+    width:80px;
     margin-top:10px;
+    margin-right:10px;
+    border-radius: 10px;
 }
 
- th, td {
-    border: 1px solid rgb(97, 96, 96);
+ td {
+    border: 1px solid rgb(194, 197, 197);
+    color:rgb(97, 96, 96);
 }
 
 table{
     width:100%;
     text-align:center;
-    padding-left: 33%;
-    padding-right:33%;
+    align-items: center;
+    padding-left:25%;
+    padding-right:25%;
 }
 
 th{
     margin-bottom: 10px;
     align-content: center;
+    border: 1px solid rgb(90, 116, 116);
+    color:rgb(97, 96, 96);
+}
+
+a{
+    color:rgb(155, 196, 192);
+    padding-right:5px;
+}
+
+div{
+    display:flex;
 }
